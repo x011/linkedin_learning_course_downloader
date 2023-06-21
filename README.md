@@ -21,7 +21,7 @@ li_at = 'AQEDAURmNjAE5Y0nAAABiNrKtugAAAGI_tc66E0ADgeMKZ55Ok3qpLsNUnCh-G8rkg60xjf
 ### Requirements: 
  - Python 3.5+
  - beautifulsoup4 - Install with `pip install beautifulsoup4` or `pip3 install beautifulsoup4`
- - You'll need a Linkedin premium susbcription to download all videos
+ - You'll need a Linkedin premium subscription to download all videos
 
 ### FAQ:
  - Problems, errors, questions? [Open an issue](https://github.com/x011/linkedin_learning_course_downloader/issues)
