@@ -26,5 +26,5 @@ li_at = 'AQEDAURmNjAE5Y0nAAABiNrKtugAAAGI_tc66E0ADgeMKZ55Ok3qpLsNUnCh-G8rkg60xjf
 ### FAQ:
  - Problems, errors, questions? [Open an issue](https://github.com/x011/linkedin_learning_course_downloader/issues)
  - Improvments? Issue a [Pull Request](https://github.com/x011/linkedin_learning_course_downloader/pulls)
- - For education purposes only. Use at your own responsibility.
+ - For educational purposes only. Use at your own responsibility.
 
