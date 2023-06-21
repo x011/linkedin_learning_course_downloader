@@ -70,7 +70,6 @@ def get_video_url(u):
 	vmatch = re.findall(r'\{"streamingLocations":\[\{"url":"([\w:/.-]+'+res+'/[\w/=?&-]+)"', src, re.IGNORECASE | re.DOTALL | re.MULTILINE)
 
 	if vmatch:
-		# print(vmatch[0])
 		return(vmatch[0])
 
 def download(u, p):
