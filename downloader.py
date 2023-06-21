@@ -72,7 +72,6 @@ def get_video_url(u):
 		return(vmatch[0])
 
 def download(u, p):
-	# print(h)
 	r = requests.get(u, stream=True, headers=h)
 	with open(p,'wb') as o:
 		o.write(r.content)
