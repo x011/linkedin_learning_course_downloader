@@ -2,7 +2,7 @@
 ### Linkedin Learning Course Downloader
 
 2023 Python 3.5+ script to download Linkedin full courses with videos and exercise files.    
-You'll need to change the following variables inside the script:
+You'll need to change the following variables on `downloader.py`:
 ```
 ############################# TO CHANGE START #############################
 
