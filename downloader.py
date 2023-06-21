@@ -7,7 +7,7 @@ from bs4 import BeautifulSoup
 ############################# TO CHANGE START #############################
 
 res = "720" # video resolution
-base_path = "/courses" # path to download courses - For windows example: c:/courses or c:\\courses
+base_path = "/courses" # path to download courses - Windows example: c:/courses or c:\\courses
 course_url = 'https://www.linkedin.com/learning/web-servers-and-apis-using-c-plus-plus/why-use-c-plus-plus-to-make-a-website' # any link from the course will do
 skip = False # skip if video already exists
 
