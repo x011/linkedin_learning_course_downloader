@@ -59,7 +59,6 @@ h_guest['Cookie'] = 'JSESSIONID=ajax:0380846659549484462; lang=v=2&lang=en-us; b
 def get_video_url(u):
 	global ef_fn, ef_url
 	r = requests.get(u, headers=h)
-	print(r.status_code)
 	src = html.unescape(r.text)
 	if not ef_fn and not ef_url:
 		ef = re.findall(r'"name":"(Ex_Files_.*?)".*?atedExerciseFile"\],"url":"(.*?)"', src, re.IGNORECASE | re.DOTALL | re.MULTILINE)
