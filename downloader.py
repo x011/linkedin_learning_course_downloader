@@ -91,11 +91,9 @@ for section in soup.select('.toc-section'):
 	for li in section.select('.toc-item'):
 		
 		for x in li.select('.table-of-contents__item-title'):
-			print("x", x.get_text(strip=True))
 			obj['items'].append(x.get_text(strip=True).title())
 
 		for a in li.find_all('a', href=True):
-			print ("Found the URL:", a['href'])
 			obj['links'].append(a['href'].split("?")[0])
 	
 	course.append(obj)
