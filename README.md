@@ -1,4 +1,5 @@
-Python 3.5+ script to download Linkedin full courses with videos and exercise files.
+
+2023 Python 3.5+ script to download Linkedin full courses with videos and exercise files.
 You'll need to change the following variables inside the script:
 ```
 ############################# TO CHANGE START #############################
