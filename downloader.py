@@ -85,11 +85,9 @@ soup = BeautifulSoup(html.unescape(r.text), 'html.parser')
 course = []
 for section in soup.select('.toc-section'):
 	
-	name = section.select_one('button').get_text(strip=True, separator=' ')
+	name = section.select_one('button').get_text(strip=True)
 	obj = {'section': name, 'items': [], 'links':[] }
 	print(name)
-	# toc-item
-	#web = section.find(lambda t: t.class_=='toc-item' and t.get_text(strip=True))
 	for li in section.select('.toc-item'):
 		
 		for x in li.select('.table-of-contents__item-title'):
