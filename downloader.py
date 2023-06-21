@@ -15,7 +15,7 @@ skip = False # skip if video already exists
 jsession = 'ajax:6778916039974719485' # get value on 'jsession' cookie
 li_at = 'AQEDAURmNjAE5Y0nAAABiNrKtugAAAGI_tc66E0ADgeMKZ55Ok3qpLsNUnCh-G8rkg60xjfDnzjTUCpyyrP7JGgxfA9BNKc00T-3UKMh2fzRJLR37FfFBupIPuVhKxyefuXDoC8dlCAp59QTSJl8ikSh' # get value on 'li_at' cookie
 
-# IMPORTANT >>> Bear in mind that you need a premium Linkedin subscription to download all videos.
+# IMPORTANT >>> Bear in mind that you need a premium Linkedin Learning subscription to download all videos.
 
 ############################# TO CHANGE END #############################
 
