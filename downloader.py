@@ -98,7 +98,6 @@ for section in soup.select('.toc-section'):
 	
 	course.append(obj)
 
-# print(course)
 sn = 0
 if not os.path.exists(f'{base_path}/{ctitle}'):
 	os.mkdir(f'{base_path}/{ctitle}')
@@ -116,9 +115,9 @@ for section in course:
 		vname = f'{sn:02d}.{n:02d} - {link.split("/")[-1].replace("-", " ").title()}.mp4'
 		vpath = f'{section_path}/{vname}'
 
-		print(vname, link)
+		print("Downloading:", vname)
 		if os.path.exists(vpath) and skip:
-			print("Video exists, skipping...")
+			print("Video already exists, skipping...")
 			continue
 			
 		vurl = get_video_url(link)
