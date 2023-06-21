@@ -1,11 +1,9 @@
-Simple yet effective script to download Linkedin full courses with videos and exercise files.
+Python 3.5+ script to download Linkedin full courses with videos and exercise files.
 You'll need to change the following variables inside the script:
-
-----
 ```
 ############################# TO CHANGE START #############################
 res = "720" # video resolution  
-base_path = "/mnt/f/Courses" # path to download courses  
+base_path = "/courses" # path to download courses  
 course_url = 'https://www.linkedin.com/learning/web-servers-and-apis-using-c-plus-plus/why-use-c-plus-plus-to-make-a-website' # any link from the course, even a chapter, will do 
 skip = False # Skip if video exists  
 
@@ -16,4 +14,8 @@ li_at = 'AQEDAURmNjAE5Y0nAAABiNrKtugAAAGI_tc66E0ADgeMKZ55Ok3qpLsNUnCh-G8rkg60xjf
 # IMPORTANT >>> Bear in mind that you need a premium susbcription to download all videos.
 ############################# TO CHANGE END #############################
 ```
+----
+### Requirements: 
+ - Python 3.5+
+ - beautifulsoup4 - Install with `pip install beautifulsoup4` or `pip3 install beautifulsoup4`
 
