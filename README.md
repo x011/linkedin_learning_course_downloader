@@ -3,6 +3,7 @@
 You'll need to change the following variables inside the script:
 ```
 ############################# TO CHANGE START #############################
+
 res = "720" # video resolution  
 base_path = "/courses" # path to download courses  
 course_url = 'https://www.linkedin.com/learning/web-servers-and-apis-using-c-plus-plus' # any link from the course, even a chapter, will do 
