@@ -7,7 +7,7 @@ You'll need to change the following variables on `downloader.py`:
 ############################# TO CHANGE START #############################
 
 res = "720" # video resolution  
-base_path = "/courses" # path to download courses  
+base_path = "/courses" # path to download courses - Windows example: c:/courses or c:\\courses
 course_url = 'https://www.linkedin.com/learning/web-servers-and-apis-using-c-plus-plus' # any link from the course, even a chapter, will do 
 skip = False # Skip if video exists  
 
